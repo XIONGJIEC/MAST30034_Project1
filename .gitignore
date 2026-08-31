@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large/raw datasets
+data/raw/*
+data/external/*
+data/processed/*
+
+# Keep empty data directories in Git
+!data/raw/.gitkeep
+!data/external/.gitkeep
+!data/processed/.gitkeep
